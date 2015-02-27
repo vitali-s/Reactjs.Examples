@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../libs/react.js"></script>
+    <script src="../libs/JSXTransformer.js"></script>
+    <script src="hello-world.jsx" type="text/jsx"></script>
+    <script src="time-component.jsx" type="text/jsx"></script>
+  </head>
+  <body>
+    <div id="example"></div>
+    
+    <script type="text/jsx">
+      React.render(
+        React.createElement(CommentBox, null),
+        document.getElementById('example')
+      );
+    </script>
+    
+  </body>
+</html>

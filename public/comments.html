@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../libs/react.js"></script>
+    <script src="../libs/JSXTransformer.js"></script>
+    <script src="hello-world.jsx" type="text/jsx"></script>
+    <script src="comment-box.jsx" type="text/jsx"></script>
+ 	<script src="http://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
+  </head>
+  <body>
+    <div id="content"></div>
+    
+    <script type="text/jsx">
+     	React.render(
+			<CommentBox data={data} />,
+			document.getElementById('content')
+		);
+    </script>
+    
+  </body>
+</html>
+
